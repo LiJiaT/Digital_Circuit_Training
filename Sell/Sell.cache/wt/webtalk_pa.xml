@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Jul 31 23:06:38 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="30e6765390e749368353c0a94a21ef79" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="2" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="NEXT, Next " value="9" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, Add or create design sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Sim" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, sell" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 5, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, a, 2, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, b, 3, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, clk, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 4, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 5, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, rst, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, y ; input ; false ; 0 ; 0, 4, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, y, 4, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, z ; input ; false ; 0 ; 0, 5, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, z, 5, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_CLOSE_PROJECT, Close Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, synth_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, sell (sell.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Non-module Files, Sim.v], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Non-module Files, Sim.v], 6, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Non-module Files], 5, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Non-module Files], 5, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Sim (Sim.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Sim.v], 6, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files, Sim.v], 6, false, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Syntax Error Files], 5, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. , [HDL 9-806] Syntax error near #. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:20]. ], 3, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. , [HDL 9-806] Syntax error near #. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:20]. ], 3, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. ], 2, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. ], 2, false, false, false, false, false, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. ], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_1, [HDL 9-806] Syntax error near (. [F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/Sell/Sell.srcs/sim_1/new/Sim.v:7]. ], 2, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Artix-7 AC701 Evaluation Platform ; xilinx.com ; 1.1 ; xc7a200tfbg676-2 ; 676 ; 1.3 ; 365 ; 740 ; 269200 ; 8 ; 8 ; 400 ; 134600 ; 10 ; 1 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 1, Artix-7 AC701 Evaluation Platform, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; d ; xc7z020clg484-1 ; 484 ; 1.3 ; 140 ; 220 ; 106400 ; 0 ; 0 ; 200 ; 53200 ; 4 ; 0 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 0, ZedBoard Zynq Evaluation and Development Kit, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, Sell" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, y], 4, false" value="4" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, z], 5, false" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, Save Waveform Configuration" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 106, 403" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 108, 222" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 109, 407" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 123, 332" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 13, 280" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 134, 363" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 139, 84" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 157, 121" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 190, 93" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 203, 106" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 203, 262" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 204, 65" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 208, 141" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 211, 51" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 216, 124" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 240, 36" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 256, 19" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 295, 46" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 309, 179" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 330, 210" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 330, 215" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 332, 79" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 359, 253" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 382, 248" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 391, 414" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 40, 42" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 6, 1" value="2" type="GuiResourceData"/>
+<property name="Sim.v, 65, 176" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 70, 256" value="1" type="GuiResourceData"/>
+<property name="Sim.v, 84, 103" value="1" type="GuiResourceData"/>
+<property name="sell.v, 144, 454" value="1" type="GuiResourceData"/>
+<property name="sell.v, 163, 424" value="1" type="GuiResourceData"/>
+<property name="sell.v, 203, 369" value="1" type="GuiResourceData"/>
+<property name="sell.v, 237, 171" value="1" type="GuiResourceData"/>
+<property name="sell.v, 496, 144" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="64" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="38" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
