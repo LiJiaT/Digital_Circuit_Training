@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: SCUT
+// Engineer: LI Jiatong
 // 
 // Create Date: 2017/07/31 22:27:16
 // Design Name: 
