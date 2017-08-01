@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Aug 01 16:39:39 2017
+# Process ID: 9156
+# Current directory: F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/AsyncFIFO/AsyncFIFO.runs/impl_1
+# Command line: vivado.exe -log AsynFIFO.vdi -applog -messageDb vivado.pb -mode batch -source AsynFIFO.tcl -notrace
+# Log file: F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/AsyncFIFO/AsyncFIFO.runs/impl_1/AsynFIFO.vdi
+# Journal file: F:/DownloadOrProgramdata/Github/Digital_Circuit_Training/AsyncFIFO/AsyncFIFO.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source AsynFIFO.tcl -notrace
